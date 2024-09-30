@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Buff Central</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Movie Buff Central</h1>
+        <p>Your ultimate hub for all things movie magic!</p>
+    </header>
+
+    <section class="posters">
+        <h2>Featured Movies</h2>
+        <div class="poster-grid">
+            <img src="download (3).jpeg" alt="Harry Potter" class="poster">
+            <img src="download (4).jpeg" alt="Star Wars" class="poster">
+            <img src="download (5).jpeg" alt="Iron Man" class="poster">
+        </div>
+    </section>
+    <section class="bios">
+        <h2>Character Bios</h2>
+        <div class="bio-card">
+            <img src="download (3).jpeg" alt="Harry Potter">
+            <h3>Harry Potter</h3>
+            <p>Harry Potter is a wizard known for his bravery, resilience, and ability to defeat the dark wizard Voldemort.</p>
+        </div>
+        <div class="bio-card">
+            <img src="download (5).jpeg" alt="Iron Man">
+            <h3>Iron Man</h3>
+            <p>Tony Stark, known as Iron Man, is a genius inventor and billionaire who becomes a superhero after creating a powerful suit.</p>
+        </div>
+        
+    </section>
+
+
+
+    <section class="trailers">
+        <h2>Movie Trailers</h2>
+        <div class="video-container">
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6ZfuNTqbHE8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </section>
+
+
+    <section class="quote-section">
+        <h2>Quote of the Day</h2>
+        <p id="quote"></p>
+
+
+
+
+        <section class="quiz">
+            <h2>Trivia Quiz</h2>
+            <div id="quiz"></div>
+            <button onclick="submitQuiz()">Submit Quiz</button>
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

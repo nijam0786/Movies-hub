@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px;
+}
+
+.posters {
+    text-align: center;
+    margin: 20px;
+}
+
+.poster-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.poster {
+    width: 200px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.poster:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.bios {
+    margin: 20px;
+    text-align: center;
+}
+
+.bio-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.bio-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.bio-card h3 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.bio-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+
+
+
+
+.trailers {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.video-container iframe {
+    margin: 20px;
+    border-radius: 8px;
+}
+
+
+
+
+
+.quote-section {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+
+
+
+.quiz {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.quiz button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.quiz button:hover {
+    background-color: #2980b9;
+}
